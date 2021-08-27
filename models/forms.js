@@ -8,8 +8,6 @@ const form=mongoose.Schema({
         questionType: String,
         options:[String]
     }],
-    responses:[
-        [String]
-    ]
+    responses:[]
 })
 module.exports=mongoose.model('Form',form)
